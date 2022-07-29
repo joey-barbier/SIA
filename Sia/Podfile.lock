@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.6.2)
+  - OrkaApiRouter (1.1.1):
+    - Alamofire (~> 5)
+  - OrkaPreviewData (1.0.1)
+
+DEPENDENCIES:
+  - OrkaApiRouter (from `https://github.com/joey-barbier/ios-apiRouter.git`)
+  - OrkaPreviewData
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - OrkaPreviewData
+
+EXTERNAL SOURCES:
+  OrkaApiRouter:
+    :git: https://github.com/joey-barbier/ios-apiRouter.git
+
+CHECKOUT OPTIONS:
+  OrkaApiRouter:
+    :commit: 56f7dbd6dced019034585d757c11a77107e6e4c3
+    :git: https://github.com/joey-barbier/ios-apiRouter.git
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  OrkaApiRouter: a579c2cf95679f2942ff0327e396f7a7361da1df
+  OrkaPreviewData: e8c23059065f4159e8f1555549fbca7cc6a2a068
+
+PODFILE CHECKSUM: 77932301be653291aca4c8c3d86abdb72a858a78
+
+COCOAPODS: 1.11.3
